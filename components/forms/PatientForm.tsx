@@ -48,6 +48,7 @@ export const PatientForm = () => {
   }: z.infer<typeof UserFormValidation>) {
     setIsLoading(true);
     try {
+      // await
       // const userData = {
       //   name,
       //   email,
